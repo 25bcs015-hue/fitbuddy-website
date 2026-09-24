@@ -15,7 +15,18 @@ const days = [
 
 function App() {
   const [page, setPage] = useState("home");
-  const [profile, setProfile] = useState({
+  const backgrounds = {
+    home: "/images/bg1.jpg",
+    workout: "/images/bg2.jpg",
+    diet: "/images/bg3.jpg",
+    bmi: "/images/bg4.jpg",
+    exercises: "/images/bg5.jpg",
+    progress: "/images/bg6.jpg",
+    profile: "/images/bg7.jpg",
+    about: "/images/bg8.jpg",
+  };
+  const [profile, setProfile] = useState
+  {
     name: "",
     age: "",
     experience: "Beginner",
