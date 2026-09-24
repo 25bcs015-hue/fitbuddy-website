@@ -25,8 +25,7 @@ function App() {
     profile: "/images/bg7.jpg",
     about: "/images/bg8.jpg",
   };
-  const [profile, setProfile] = useState
-  {
+  const [profile, setProfile] = useState({
     name: "",
     age: "",
     experience: "Beginner",
