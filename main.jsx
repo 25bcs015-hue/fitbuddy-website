@@ -72,9 +72,17 @@ function App() {
     }]);
     setMessage("");
   };
-
   return (
-    <div className="app">
+    <div 
+      className="app"
+      style={{
+        backgroundImage: `linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(${backgrounds[page]})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        minHeight: "100vh"
+      }}
+    >
       <header className="nav">
         <button className="brand" onClick={() => setPage("home")}>
           <span className="logo">F</span>
