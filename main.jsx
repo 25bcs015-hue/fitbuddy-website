@@ -17,13 +17,11 @@ function App() {
   const [page, setPage] = useState("home");
   const backgrounds = {
     home: "/bg1.jpg",
-    workout: "/bg2.jpg",
-    diet: "/bg3.jpg",
-    bmi: "/bg4.jpg",
-    exercises: "/bg5.jpg",
-    progress: "/bg6.jpg",
-    profile: "/bg7.jpg",
-    about: "/bg8.jpg",
+    dashboard: "/bg2.jpg",
+    plan: "/bg3.jpg",
+    progress: "/bg4.jpg",
+    assistant: "/bg5.jpg",
+    profile: "/bg6.jpg",
   };
   const [profile, setProfile] = useState({
     name: "",
